@@ -1,0 +1,569 @@
+#cabezaSpiderman{
+  background: red;
+  height: 200px;
+  width: 200px;
+  border-radius: 120px;
+  border: 5px solid black;
+}
+
+.ojos{
+  background: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+  border: 4px solid black;
+  z-index: 2;
+}
+
+#ojoIzq{
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+
+#ojoDer{
+  position: relative;
+  top: 2px;
+  left: 110px;
+}
+
+.parpadoIzq{
+  width:50px;
+  height:20px;
+  background: red;
+  position: absolute;
+  top: -2px;
+  left: 8px;
+  border-radius: 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(30deg);
+  z-index: 1;
+}
+
+.parpadoDer{
+  width:50px;
+  height:20px;
+  background: red;
+  position: absolute;
+  top: -2px;
+  left: -8px;
+  border-radius: 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(-30deg);
+  z-index: 1;
+}
+
+.telarana1{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 50% 10% 50% 10%;
+  border-bottom: 5px solid black;
+  transform: rotate(75deg);
+  z-index: 3;
+}
+
+.telarana2{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 50px;
+  left: 74px;
+  border-radius: 10% 50% 10% 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(-75deg);
+  z-index: 3;
+}
+
+.telarana3{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 150px;
+  left: 39px;
+  border-radius: 50% 10% 50% 10%;
+  border-bottom: 5px solid black;
+  transform: rotate(-66deg);
+  z-index: 3;
+}
+
+.telarana4{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 150px;
+  left: 87px;
+  border-radius: 10% 50% 10% 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(-294deg);
+  z-index: 3;
+}
+
+.telarana5{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 60px;
+  left: 28px;
+  border-radius: 50% 10% 50% 10%;
+  border-bottom: 5px solid black;
+  transform: rotate(46deg);
+  z-index: 3;
+}
+
+.telarana6{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 60px;
+  left: 97px;
+  border-radius: 10% 50% 10% 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(-46deg);
+  z-index: 3;
+}
+
+.telarana7{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  border-radius: 50% 10% 60% 10%;
+  border-bottom: 5px solid black;
+  transform: rotate(-33deg);
+  z-index: 3;
+}
+
+.telarana8{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 130px;
+  left: 108px;
+  border-radius: 10% 60% 10% 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(-327deg);
+  z-index: 3;
+}
+
+.telarana9{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  border-radius: 50% 10% 60% 10%;
+  border-bottom: 5px solid black;
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+
+.telarana10{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 109px;
+  left: 117px;
+  border-radius: 10% 60% 10% 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(-355deg);
+  z-index: 1;
+}
+
+.telarana11{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  border-radius: 50% 10% 80% 10%;
+  border-bottom: 5px solid black;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+.telarana12{
+  width:100px;
+  height:20px;
+  background: transparent;
+  position: absolute;
+  top: 88px;
+  left: 113px;
+  border-radius: 10% 80% 10% 50%;
+  border-bottom: 5px solid black;
+  transform: rotate(345deg);
+  z-index: 1;
+}
+
+.telaranaCirculo1{
+  width: 160px;
+  height: 160px;
+  background: transparent;
+  position: relative;
+  top: -100px;
+  left: 15.5px;
+  border: 4px solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.telaranaCirculo2{
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  position: relative;
+  top: -235px;
+  left: 45px;
+  border: 4px solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.telaranaCirculo3{
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  position: relative;
+  top: -317px;
+  left: 70px;
+  border: 4px solid black;
+  border-radius: 50%;
+  z-index: 1;
+}
+.telaranaCirculo4{
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  position: relative;
+  top: -355px;
+  left: 93px;
+  border: 4px solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.telaranaCirculo5{
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  position: relative;
+  top: -388px;
+  left: 75px;
+  border: 4px solid black;
+  border-radius: 50%;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  z-index: 4;
+}
+
+.rellenoIzq1{
+  width: 9px;
+  height: 30px;
+  background: white;
+  position: relative;
+  top: -438px;
+  left: 44px;
+  border-radius: 50% 50% 50% 40%;
+  border: 1px solid white;
+  transform: rotate(6deg);
+  z-index: 5;
+}
+
+.rellenoDer1{
+  width: 9px;
+  height: 30px;
+  background: white;
+  position: relative;
+  top: -470px;
+  left: 143px;
+  border-radius: 50% 10% 50% 40%;
+  border: 1px solid white;
+  transform: rotate(-7deg);
+  z-index: 5;
+}
+
+.rellenoIzq2{
+  width: 9px;
+  height: 25px;
+  background: white;
+  position: relative;
+  top: -499px;
+  left: 64px;
+  border-radius: 90% 60% 50% 40%;
+  border: 1px solid white;
+  transform: rotate(90deg);
+  z-index: 5;
+}
+
+.rellenoDer2{
+  width: 9px;
+  height: 25px;
+  background: white;
+  position: relative;
+  top: -526px;
+  left: 127px;
+  border-radius: 90% 60% 50% 40%;
+  border: 1px solid white;
+  transform: rotate(85deg);
+  z-index: 5;
+}
+
+#cabezaIronman{
+  background: #aa0505  ;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  position: relative;
+  top: -210px;
+  left: 250px;
+}
+
+.parteAmarilla{
+  background: #fbca03;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+}
+
+#caraFrente{
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 30px solid #aa0505;
+  top: -22px;
+  left: 4px;
+}
+
+#caraMenton{
+  width: 40px;
+  height: 50px;
+  background: transparent;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 10px solid #aa0505;
+  top: -8px;
+  left: 10px;
+}
+
+#caraMejillaDer{
+  width:70px;
+  height:20px;
+  background: #aa0505;
+  top: -82px;
+  left: 80px;
+  border-radius: 50%;
+  border-bottom: 5px solid #aa0505;
+  transform: rotate(300deg);
+}
+
+#caraMejillaIzq{
+  width:70px;
+  height:20px;
+  background: #aa0505;
+  top: -108px;
+  left: -54px;
+  border-radius: 50%;
+  border-bottom: 5px solid #aa0505;
+  transform: rotate(60deg);
+}
+
+#caraMejillaIzq2{
+  width: 50px;
+  top: -208px;
+  left: -20px;
+  z-index: 1;
+}
+
+#caraMejillaDer2{
+  width: 50px;
+  top: -308px;
+  left: 69px;
+  z-index: 1;
+}
+
+#caraMentonIzq2{
+  width: 28px;
+  height: 50px;
+  top: -310px;
+  left: 9px;
+  transform: rotate(49deg);
+  z-index: 1;
+}
+
+#caraMentonDer2{
+  width: 28px;
+  height: 50px;
+  top: -361px;
+  left: 62px;
+  transform: rotate(-49deg);
+  z-index: 1;
+}
+
+#caraMenton3{
+  width: 74px;
+  height: 30px;
+  top: -390px;
+  left: 13px;
+  z-index: 1;
+}
+
+#caraMenton4{
+  width: 108px;
+  height: 30px;
+  top: -440px;
+  left: -5px;
+  z-index: 1;
+}
+
+.ojoIronmanIzq{
+  width: 30px;
+  height: 1px;
+  position: relative;
+  top: -15px;
+  left: 40px;
+  border-right: 5px solid transparent;
+  border-left: 15px solid transparent;
+  border-top: 15px solid #81e2f6;
+  z-index: 2;
+}
+
+.ojoIronmanDer{
+  width: 30px;
+  height: 1px;
+  position: relative;
+  top: -31px;
+  left: 106px;
+  border-right: 15px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 15px solid #81e2f6;
+  z-index: 2; 
+}
+
+.frenteIzq{
+  width:40px;
+  height:12px;
+  background: #aa0505;
+  position: relative;
+  top: -87px;
+  left: 7px;
+  border-radius: 50%;
+  border-bottom: 1px solid #aa0505;
+  transform: rotate(-90deg);
+  z-index: 3;
+}
+
+.frenteDer{
+  width:40px;
+  height:12px;
+  background: #aa0505;
+  position: relative;
+  top: -100px;
+  left: 152px;
+  border-radius: 50%;
+  border-bottom: 1px solid #aa0505;
+  transform: rotate(-270deg);
+  z-index: 3;
+}
+
+.cuadradoFrente{
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  position: relative;
+  top: -150px;
+  left: 48px;
+  border: 2px solid black;
+  z-index: 1;
+}
+
+.lineaFrente{
+  width: 116px;
+  height: 1px;
+  background: black;
+  position: relative;
+  top: -115px;
+  left: 40px;
+  z-index: 5;
+}
+
+.orejas{
+  width: 100px;
+  height: 13px;
+  background: transparent;
+  position: relative;
+  border-radius: 50%;
+  border-bottom: 2px solid black;
+  z-index: 4;
+}
+
+#orejaIzq{
+  transform: rotate(270deg);
+  top: -110px;
+  left: -42px;
+}
+
+#orejaDer{
+  transform: rotate(90deg);
+  top: -125px;
+  left: 142px;
+}
+
+.bocaLineas{
+  background: black;
+  height: 1px;
+  position: relative;
+  z-index: 5;
+}
+
+#lineaUno{
+  width: 20px;
+  transform: rotate(330deg);
+  top: -65px;
+  left: 52px;
+}
+
+#lineaDos{
+  width: 58px;
+  top: -71px;
+  left: 71px;
+}
+
+#lineaTres{
+  width: 20px;
+  transform: rotate(30deg);
+  top: -67px;
+  left: 127px;
+}
+
+.boca{
+  width: 40px;
+  height: 0px;
+  position: relative;
+  top: 17px;
+  left: 65px;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 7px solid transparent;
+  z-index: 2; 
+}

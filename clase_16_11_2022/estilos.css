@@ -1,0 +1,39 @@
+
+/*Asi se cambia el color de fondo de cada div*/
+/*De esta manera se editan las etiquetas*/
+div{
+	background: red;  
+}
+
+/*Así se cambia el estilo de un parrafo*/
+p{
+	font-size: 40px;
+}
+
+/*Así se edita el estilo de una clase*/
+.verde{
+	background: green;
+}	
+
+.gris{
+	background: rgb(215,215,215);
+}
+
+/*Así se edita el estilo de un "id"*/
+#mediano{
+	background: yellow;
+	width: 500px;
+
+	/*Para reposicionar etiquetas (en este caso con fixed) (como si fuera una barra de busqueda)*/	
+	position: fixed;
+
+	/*Con relative y absolute si se respetan los toop, right, etc.
+	Relative. Respeta a las otras div en la posicion
+	Absolute. No respeta la posicion de las otras div, ya no interactua con las otras etiquetas*/
+
+
+	top: 0px;
+	right: ;
+	bottom: ;
+	left: ;
+}

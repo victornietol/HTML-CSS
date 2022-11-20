@@ -1,0 +1,393 @@
+/* 
+Colores para utlizar: rojo, naranja, amarillo, verde, tal vez gris
+
+gris: #f9f6f1 (fondo), #292929 (pie de pagina)
+rojo: #cd1904 (menu superior), #572100 (h2)
+naranja: #
+amarillo: #fbc247 (detalles)
+verde: #
+
+*/
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #fbc247;
+	transition-duration: 0.5s;
+}
+
+h1{
+	font-size: 50px;
+	color: #cd1904;
+	border: 1px solid #fbc247;
+}
+
+h2{
+	font-size: 30px;
+	letter-spacing: 6px;
+	color: #572100;
+}
+
+p{
+	font-size: 22px;
+}
+
+.fondo{
+	background: #f9f6f1;
+	/*height: 1200px;    <------- quitar cuando acabe la pagina */
+	margin-top: -8px;
+	margin-bottom: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+	font-family: "Trebuchet MS", "Open Sans", sans-serif, Helvetica;
+	overflow: hidden;    /* Con esto se escode lo que sobra alrededor de la pagina, se quita el scroll horizontal */
+}
+
+
+.barraMenuSuperior{
+	background: #cd1904;
+	height: 70px;
+	width: 1920px;   /*opc 2 width: 100%*/
+	position: fixed;
+	top: 0px;
+	box-shadow: 2px	2px	5px #999;
+	/*margin: 0 auto; 	  <-------- Así se puede centrar automaticamente un div*/ 
+}
+
+.barraPestanias{
+	display: inline-block;
+	letter-spacing: 6px;
+	font-size: 17px;
+	color: white;
+	margin: 15px;
+}
+
+.indicadorPag{
+	height: 3px;
+	width: 30px;
+	background: white; 
+	border-radius: 20px 20px 80px 80px;
+	margin-top: 4px;
+}
+
+.imagen{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contenido{
+	padding-top: 130px;
+	background-color: transparent;
+	padding-left: 140px;
+	padding-right: 140px;
+	padding-bottom: 60px;
+	text-align: justify;
+}
+
+.piePag{
+	background: #292929;
+	height: 230px;
+	width: 1920px;
+	position: relative;
+	bottom: 0px;
+	color: white;
+	/*
+	padding-top: 20px;
+	padding-left: 85px;
+	padding-right: 85px;
+	*/
+}
+
+.textoPiePag{
+	line-height: 22px;
+}
+
+.lineaDelgada{
+	border-width: 1px;
+	border-style: solid;
+	width: 500px;
+}
+
+.contenedorTexto{
+	display: grid;
+	grid-template-columns: repeat(2,900px);
+	grid-gap: 0px;
+	grid-auto-rows: minmax(auto, auto);
+
+	margin-top: 70px;
+	background: transparent;     
+}
+
+.lineaInicio{
+	width: 1200px;
+	margin-top: 60px;
+	margin-left: 200px;
+	border-color: #fbc247;
+	border-style: solid;
+	box-shadow: 2px	2px	5px #999;
+}
+
+
+/* Divisiones de los bloques de la barra de menú */
+#superiorIzq{
+	display: inline-block; 
+	background-color: transparent;
+	height: 60px;
+	width: 330px;
+	padding-left: 70px;  
+	padding-top: 10px;		/* <------- agregar o cambiar padding top cuando se agregue el logo para acomodar la imagen */
+}
+
+#superiorCentro{  
+	display: inline-block;
+	height: 60px;
+	width: 1090px;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+}
+
+#superiorDer{
+	display: inline-block;
+	background-color: transparent;
+	height: 70px;
+	width: 400px;
+	padding-top: 0px;
+	vertical-align: top;
+	/*background: red;         <---------------- quitar en caso de no usarlo*/
+}
+
+#logoSuperior{
+	margin-top: -25px;
+}
+
+
+/* Divisiones de los bloques del pie de página */
+#inferiorIzq{
+	display: inline-block;
+	background-color: transparent;
+	height: 100%;
+	width: 690px;
+	text-align: right;
+}
+
+#inferiorCentro{
+	display: inline-block;
+	background-color: transparent;
+	height: 100%;
+	width: 520px;
+	position: absolute;
+	text-align: center;
+	padding-top: 35px;
+}
+
+#inferiorDer{
+	display: inline-block;
+	vertical-align: top;
+	background-color: transparent;
+	height: 100%;
+	width: 600px;
+	text-align: left;
+	margin-left: 520px;
+}
+
+#interletrajeCarrera{
+	letter-spacing: 3px;
+}
+
+#textoAdvertencia{
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 13px;
+	color: white;
+	margin-left: 160px;
+	text-align: right;
+}
+
+#imagenUNAM{
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: top;
+	height: 150px;
+	width: 125px;
+	margin-top: 41px;
+}
+
+#imagenFES{
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: top;
+	height: 170px;
+	width: 150px;
+	margin-top: 30px;
+}
+
+#imgComidaInicio{
+	width: 500px;
+	height: 282px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#subSomos{
+	grid-column: 1;
+	grid-row: 1;
+	text-align: center;
+}
+
+#boxIzqSomos{
+	grid-column: 1;
+	grid-row: 2;
+	text-align: center;
+	/*
+	width: 900px;
+	display: inline-grid;
+	background: red; 
+	*/
+}
+
+#boxDerSomos{
+	grid-column: 2;
+	grid-row: 2;
+	text-align: right;
+	padding-right: 250px;
+	margin-top: -82px;
+}
+
+#subMenu{
+	grid-column: 2;
+	grid-row: 4;
+	text-align: center;
+	padding-top: 40px;
+	margin-left: -360px;
+}
+
+#lineaUno{
+	grid-column: 1/2;
+	grid-row: 3;
+}
+
+#imgInicioMenu{
+	width: 500px;
+	height: 282px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#boxIzqMenu{
+	grid-column: 1;
+	grid-row: 5;
+	text-align: left;
+	margin-top: -80px;
+	padding-left: 80px;
+}
+
+#boxDerMenu{
+	grid-column: 2;
+	grid-row: 5;
+	text-align: center;
+	padding-right: 192px;
+	margin-left: -180px;
+}
+
+#lineaDos{
+	grid-column: 1/2;
+	grid-row: 6;
+	margin-bottom: 50px;
+}
+
+#subGaleria{
+	grid-column: 1;
+	grid-row: 7;
+	text-align: center;
+}
+
+#boxIzqGaleria{
+	grid-column: 1;
+	grid-row: 8;
+	text-align: center;
+	margin-top: 0px;
+	padding-left: 10px;	
+}
+
+#boxDerGaleria{
+	grid-column: 2;
+	grid-row: 8;
+	text-align: center;
+	margin-left: -100px;
+	margin-top: -85px;
+}	
+
+#imgInicioGaleria{
+	width: 500px;
+	height: 282px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#lineaTres{
+	grid-column: 1/2;
+	grid-row: 9;
+	margin-bottom: 50px;
+}
+
+#subPromo{
+	grid-column: 2;
+	grid-row: 10;
+	text-align: center;
+	margin-left: -360px;	
+}
+
+#imgInicioPromo{
+	width: 500px;
+	height: 282px;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+#boxIzqPromo{
+	grid-column: 1;
+	grid-row: 11;
+	text-align: center;
+	margin-top: -80px;
+	margin-left: -240px;	
+}
+
+#boxDerPromo{
+	grid-column: 2;
+	grid-row: 11;
+	text-align: center;
+	margin-left: -230px;
+	margin-right: 185px;
+	margin-top: 0px;
+}
+
+#lineaCuatro{
+	grid-column: 1/2;
+	grid-row: 12;
+	margin-bottom: 50px;
+}
+
+#subUbicacion{
+	grid-column: 1/2;
+	grid-row: 13;
+	text-align: center;
+	margin-left: 700px;	
+	margin-top: -10px;
+}
+
+#boxUbicacion{
+	grid-column: 1/2;
+	grid-row: 13;
+	text-align: center;
+	width: 800px;
+	margin-top: 20px;
+	margin-left: 400px;
+	margin-bottom: 30px;
+}
+
+#textoUbicacion{
+	font-size: 20px;
+	letter-spacing: 1px;
+}

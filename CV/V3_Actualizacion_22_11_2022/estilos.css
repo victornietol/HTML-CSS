@@ -1,0 +1,87 @@
+div{
+	font-family: sans-serif;
+}
+
+h1{
+	letter-spacing: 1px;
+}
+
+h2{
+	font-family: serif;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: rgb(138,138,138);
+}
+
+h3{
+	letter-spacing: 4px;
+}
+
+a{
+	color: #f8ead9;
+}
+
+hr{
+	border-color: #d7ad1a;
+	border-style: solid;
+	box-shadow: 2px	2px	5px #999; 
+}
+
+li{
+	line-height: 25px;
+}
+
+.fondo{
+	background-image: url(img/fondo.jpg);
+	width: 1600px;
+}
+
+.col{
+	background: grey;
+	text-align: justify;
+	display: inline;
+	height: 970px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 15px;
+}
+
+.lineaDelgada{
+	border-width: 1px;	
+}
+
+.lineaDelgadaIzq{
+	box-shadow: 2px	2px	5px black;
+}
+
+.lineaGruesa{
+	border-width: 3px;
+}
+
+.bordeImagen{
+	margin-top: 30px;
+	border: 5px	solid black;
+	border-radius: 100%;
+}
+
+#col_izq{
+	background: #051730;
+	color: white;
+	width: 390px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#col_der{
+	background: #efefef;
+	width: 900px;
+	display:inline-block;
+	vertical-align: center;
+	margin-left: 16px;
+}
+
+#listaHabilidades{
+	margin-left: -22px;
+}
